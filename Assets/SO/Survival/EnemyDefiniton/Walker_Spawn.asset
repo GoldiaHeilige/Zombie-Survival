@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94232c678ec38454c82d48c1e02194ee, type: 3}
+  m_Name: Walker_Spawn
+  m_EditorClassIdentifier: 
+  id: walker
+  prefab: {fileID: 6578333236539902314, guid: da398cad84de8264ca01d3aec71e960b, type: 3}
+  cost: 1
+  minRound: 1
+  groupSizeRange: {x: 2, y: 4}
+  weight: 0.5

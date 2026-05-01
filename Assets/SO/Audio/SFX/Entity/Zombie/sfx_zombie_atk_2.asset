@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_zombie_atk_2
+  m_EditorClassIdentifier: 
+  eventId: 715
+  eventName: sfx_zombie_atk_2
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 78d196f67f3397845bc9745ed62f8e76, type: 3}
+  - {fileID: 8300000, guid: 527c28c3c5257bc4dacde9fd993092eb, type: 3}
+  - {fileID: 8300000, guid: 5e34a8a950335ef449cd745d65335808, type: 3}
+  - {fileID: 8300000, guid: 3252f21897b68a548896d4e598c13007, type: 3}
+  - {fileID: 8300000, guid: ad520d86286331c4a8e80f5241128a95, type: 3}
+  - {fileID: 8300000, guid: d1637fe2714ce3f41bf6c90cbd07033a, type: 3}
+  - {fileID: 8300000, guid: 4a6a994017b1e7b48881331f531373ec, type: 3}
+  - {fileID: 8300000, guid: 0b24c907918947846a27534f4f79dca9, type: 3}
+  - {fileID: 8300000, guid: 43e6fffe2a04009439b8ff0647dce871, type: 3}
+  - {fileID: 8300000, guid: 3a9b318e1d84da549bd8b243b18f8ba9, type: 3}
+  - {fileID: 8300000, guid: f7e19cc51162eb141b1535ff3f5ade91, type: 3}
+  - {fileID: 8300000, guid: ce97799134df0e3409d5cea2a5dd4704, type: 3}
+  - {fileID: 8300000, guid: 5e6fd34375b48a2498801b0ef8ce49c3, type: 3}
+  - {fileID: 8300000, guid: 64d9d86d49c1ec84c8dc6b880c26652c, type: 3}
+  - {fileID: 8300000, guid: 8c104ea7d349fc849a31552e6d14688c, type: 3}
+  - {fileID: 8300000, guid: 7384a2ea0bf929841ac0aa98f7026ac7, type: 3}
+  - {fileID: 8300000, guid: 73aaad6a646a9904891d2c7c65cc64dc, type: 3}
+  - {fileID: 8300000, guid: b30d1da2bf3eb7745b0d17ecffd5c867, type: 3}
+  - {fileID: 8300000, guid: 64c09424aa300ac4cb60093232a6a465, type: 3}
+  - {fileID: 8300000, guid: f2008ce5d3582f44481d09d919dff5b4, type: 3}
+  - {fileID: 8300000, guid: 9bff44d83f02087439f99995406ef9be, type: 3}
+  - {fileID: 8300000, guid: c0b596831991713479745f688fb81ee9, type: 3}
+  - {fileID: 8300000, guid: 2648db0c499db7944a792fd96f465df8, type: 3}
+  volume: 1
+  pitch: 1
+  pitchRandomRange: 0.05
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 10
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_fire_explosion_1
+  m_EditorClassIdentifier: 
+  eventId: 0
+  eventName: sfx_fire_rocket_2
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: f8eb7909eecb0db4c890897e57b54c78, type: 3}
+  - {fileID: 8300000, guid: 9dce1fccb5c5d314ca0bca7604f9463c, type: 3}
+  - {fileID: 8300000, guid: f6e6a6ef3d058064696189d9bcb3309f, type: 3}
+  - {fileID: 8300000, guid: 4a995dddf8370bf40a330b7413a20a19, type: 3}
+  - {fileID: 8300000, guid: 3ef5fb89bfab12d43830e7b3fc38dea3, type: 3}
+  - {fileID: 8300000, guid: 1337d331159b2d34daee26c91b848f30, type: 3}
+  - {fileID: 8300000, guid: b1f522d72810a63438cca1b3ba2c8e4b, type: 3}
+  volume: 0.6
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 30
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

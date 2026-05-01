@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_zombie_chase_2
+  m_EditorClassIdentifier: 
+  eventId: 745
+  eventName: sfx_zombie_chase
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 23fb6588503b63e478097e77e837dd99, type: 3}
+  - {fileID: 8300000, guid: 50eab138fc3bd02428055347b159a59e, type: 3}
+  - {fileID: 8300000, guid: 4de18f3a31c3e0f40bde69e1faa9d9b3, type: 3}
+  - {fileID: 8300000, guid: 5b26067ad9701874697936651c210844, type: 3}
+  - {fileID: 8300000, guid: 1335703c91eaed946b2c2136031884ab, type: 3}
+  - {fileID: 8300000, guid: 4b11b4d11fc62da439a5c089575d4340, type: 3}
+  - {fileID: 8300000, guid: 6553147bf653b9548b20719e7332898e, type: 3}
+  - {fileID: 8300000, guid: 0feb3016610e1b548ae7bde07bc0a743, type: 3}
+  volume: 0.4
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 20
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

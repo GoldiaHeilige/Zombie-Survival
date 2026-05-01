@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aade4b6be3c30b449aec825a7e327cb5, type: 3}
+  m_Name: Audio_ZombieRunner
+  m_EditorClassIdentifier: 
+  defaultFootstep: {fileID: 11400000, guid: 269c176304c0bee41b04ee907ea9e2eb, type: 2}
+  surfaceFootsteps: []
+  footRaycastHeight: 1
+  footRaycastDistance: 1.5
+  footstepMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  footstepPlayChance: 1
+  maxFootstepDistance: 20
+  minFootstepInterval: 0.2
+  aggroShouts:
+  - {fileID: 11400000, guid: 88c34e57c03d2804fa6af6f30d93da13, type: 2}
+  aggroCollection: {fileID: 0}
+  aggroShoutChance: 0.9
+  aggroMaxDistance: 40
+  chaseBarks:
+  - {fileID: 11400000, guid: a8362ef488c74834eaf5f28aa340d2a3, type: 2}
+  chaseBarkCollection: {fileID: 0}
+  chaseBarkInterval: {x: 4, y: 10}
+  chaseMaxDistance: 35
+  attackVocals:
+  - {fileID: 11400000, guid: 39d587c59d84ca945968559f0b08d573, type: 2}
+  - {fileID: 11400000, guid: 7a06391182150a34baded6441b41cc77, type: 2}
+  attackVocalCollection: {fileID: 0}
+  attackSwings:
+  - {fileID: 11400000, guid: 585abc267a5655842a3d322121227873, type: 2}
+  attackSwingCollection: {fileID: 0}
+  attackHitPlayer:
+  - {fileID: 11400000, guid: 62e644a05c0a0c541994d900ce789a04, type: 2}
+  attackHitPlayerCollection: {fileID: 0}
+  attackVocalChance: 1
+  attackSwingChance: 1
+  attackHitPlayerChance: 1
+  attackMaxDistanceOverride: 0
+  hitReactions:
+  - {fileID: 11400000, guid: c80a6617be2a421488736ef3920ec308, type: 2}
+  hitReactionCollection: {fileID: 0}
+  deathVocals:
+  - {fileID: 11400000, guid: 9cc19878e1dfa2a42b7f5d511b7b47d6, type: 2}
+  deathVocalCollection: {fileID: 0}
+  deathVocalChance: 1
+  bodyFallSfx:
+  - {fileID: 11400000, guid: ee4354196c673cb479f78a4f07fb5c1d, type: 2}
+  bodyFallCollection: {fileID: 0}
+  deathMaxDistanceOverride: 0
+  minLocalVoiceInterval: 1
+  vocalMaxDistanceOverride: 0

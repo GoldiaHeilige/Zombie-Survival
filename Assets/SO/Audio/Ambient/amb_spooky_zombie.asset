@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: amb_spooky_zombie
+  m_EditorClassIdentifier: 
+  eventId: 4
+  eventName: amb_spooky
+  category: 4
+  clips:
+  - {fileID: 8300000, guid: d9e56e6e6023e764c89113d089579bce, type: 3}
+  - {fileID: 8300000, guid: c47d4f1d8420d854cb56cc6f62f6e3ee, type: 3}
+  - {fileID: 8300000, guid: fbf3c2b7300e3644a838c98560288c78, type: 3}
+  - {fileID: 8300000, guid: 9d7a747039d360b42aeff4d2f7747d07, type: 3}
+  - {fileID: 8300000, guid: cd1b79a9194988544b332facf10c886f, type: 3}
+  - {fileID: 8300000, guid: 7186c68f112f1cb4da0118838f3a5f65, type: 3}
+  - {fileID: 8300000, guid: b4cce0d1d143bc94fb8363b974b5f7af, type: 3}
+  - {fileID: 8300000, guid: 1d1e352589d8a894f8b8c750578f56ca, type: 3}
+  - {fileID: 8300000, guid: c19d13e05b8d0ab43ac590038b33652a, type: 3}
+  - {fileID: 8300000, guid: d53d0c6bb5c5f1f46b61a6b01fccfb61, type: 3}
+  - {fileID: 8300000, guid: 3b97e7f716c6e5b46bab487087edb095, type: 3}
+  - {fileID: 8300000, guid: 36a4fba5c3cc4bc4c919ebb365ac3eab, type: 3}
+  - {fileID: 8300000, guid: 4b41c282ad52b7c40a95389ac00db9f8, type: 3}
+  - {fileID: 8300000, guid: bae01742a24ac5644b6daadc1a617a8a, type: 3}
+  - {fileID: 8300000, guid: fb6cf251b1dbe7a44886c91ef9682c5d, type: 3}
+  - {fileID: 8300000, guid: 2eeef5c1b63a53d459a018bfc0e10839, type: 3}
+  - {fileID: 8300000, guid: 45833c20cf3793844be448c6aba3671e, type: 3}
+  - {fileID: 8300000, guid: 5f60f61d05c5fd842bccdde8d8d01ccb, type: 3}
+  - {fileID: 8300000, guid: 9928d4d4db89324479f65336a9e10f7c, type: 3}
+  - {fileID: 8300000, guid: 97d10d1f16ccaf445b2d7eed7d6a824d, type: 3}
+  - {fileID: 8300000, guid: 0565ef1c73a197a4fb1d0509cfd2d409, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 0
+  minDistance: 1
+  maxDistance: 40
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: 233348317199752015, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

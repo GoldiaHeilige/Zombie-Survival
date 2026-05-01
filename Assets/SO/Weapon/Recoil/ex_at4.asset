@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902758796f9adc94aa805f59df724609, type: 3}
+  m_Name: ex_at4
+  m_EditorClassIdentifier: 
+  weaponName: AT-4
+  weaponId: ex_at4
+  fireMode: 0
+  fireKind: 1
+  damageType: 2
+  baseDamage: 500
+  maxDistance: 100
+  projectileSpeed: 60
+  RecoilProfile: {fileID: 11400000, guid: 572f354d65b2c254b90e438a9fc4c403, type: 2}
+  rpm: 100
+  burstCount: 0
+  burstInterval: 9
+  actionType: 0
+  actionCycleSeconds: 0
+  actionAudio: {fileID: 0}
+  pelletCount: 0
+  pelletSpreadDegHip: 0
+  pelletSpreadDegADS: 0
+  reloadTime: 2
+  magSize: 1000
+  startReserve: 1000
+  maxReserve: 1000
+  adsInTime: 0.12
+  adsOutTime: 0.14
+  adsFOV: 60
+  upgradedVersion: {fileID: 0}
+  muzzleFlashPrefab: {fileID: 0}
+  worldMuzzleFlashPrefab: {fileID: 0}
+  tracerPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 4170512990340791907, guid: 25b790bed39615b4d8fd54a82d925b97, type: 3}
+  projectileNetPrefab: {fileID: 2792870539482700925, guid: c9ffeb8c82bf10f4d98e34988a573672, type: 3}
+  projectileMuzzleVelocity: 10
+  projectileExplosion: {fileID: 11400000, guid: 3682ebd3621fa18428837c0775b10cd5, type: 2}
+  animWeaponType: 1
+  impactVFX:
+    Default: {fileID: 0}
+    Flesh: {fileID: 0}
+    Metal: {fileID: 0}
+    Wood: {fileID: 0}
+    Concrete: {fileID: 0}
+    Glass: {fileID: 0}
+    Dirt: {fileID: 0}
+    Water: {fileID: 0}
+  impactSFX:
+    Default: {fileID: 0}
+    Flesh: {fileID: 0}
+    Metal: {fileID: 0}
+    Wood: {fileID: 0}
+    Concrete: {fileID: 0}
+    Glass: {fileID: 0}
+    Dirt: {fileID: 0}
+    Water: {fileID: 0}
+  fireAudio: {fileID: 11400000, guid: e3c5843a38fa56d4f838ba61a85c3353, type: 2}
+  reloadAudio: {fileID: 11400000, guid: c8503491e59ff5843a8056be2534dcc1, type: 2}
+  viewPrefab: {fileID: 3372968606564948938, guid: c5b165c92af5c3248875ae6aa7dacfe9, type: 3}
+  thirdPersonPrefab: {fileID: 0}
+  fpHipPositionOffset: {x: 0, y: 0, z: 0}
+  fpHipRotationOffsetEuler: {x: 0, y: 0, z: 0}
+  worldPrefab: {fileID: 388692979537776086, guid: e32e5ec5f3ced70438f7141dbd36ff35, type: 3}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  thirdPersonPositionOffset: {x: 0, y: 0, z: 0}
+  thirdPersonRotationOffsetEuler: {x: 0, y: 0, z: 0}
+  thirdPersonScale: {x: 1, y: 1, z: 1}
+  useADSOffsetsForWorldModel: 0
+  thirdPersonADSPositionOffset: {x: 0, y: 0, z: 0}
+  thirdPersonADSRotationOffsetEuler: {x: 0, y: 0, z: 0}
+  thirdPersonADSScale: {x: 1, y: 1, z: 1}

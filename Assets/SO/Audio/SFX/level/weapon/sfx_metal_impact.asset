@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_metal_impact
+  m_EditorClassIdentifier: 
+  eventId: 731
+  eventName: sfx_metal_impact
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: c6d920558a439d146966b1a4d2c201b5, type: 3}
+  - {fileID: 8300000, guid: 14a4287b0aaf2bb4cb8afeebe7328a9d, type: 3}
+  - {fileID: 8300000, guid: 0a8373579674ea64ca50b76f0ec7fe00, type: 3}
+  - {fileID: 8300000, guid: 3e723ca1a9690f844840556a2ed334b1, type: 3}
+  - {fileID: 8300000, guid: 9bd18a8517e1aa64299c4cf3665d9922, type: 3}
+  - {fileID: 8300000, guid: aaa3191ed1c2b1f429ae619c228812a9, type: 3}
+  - {fileID: 8300000, guid: aaa3191ed1c2b1f429ae619c228812a9, type: 3}
+  - {fileID: 8300000, guid: aaa3191ed1c2b1f429ae619c228812a9, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 15
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_gear_rattle
+  m_EditorClassIdentifier: 
+  eventId: 701
+  eventName: sfx_gear_rattle
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 48d67ba3283a3da449f89912152eea51, type: 3}
+  - {fileID: 8300000, guid: 988d61887c3fa884681c6759199aa40b, type: 3}
+  - {fileID: 8300000, guid: afa767f1a6772524e91637a0bf0fb768, type: 3}
+  - {fileID: 8300000, guid: af872cc816b4550409e33ba3119843b5, type: 3}
+  - {fileID: 8300000, guid: d0bf632c727e88d46879062c473e278a, type: 3}
+  - {fileID: 8300000, guid: 74b00ea80c23e7243bc2d8f0811da2ba, type: 3}
+  - {fileID: 8300000, guid: df89f89fa05f2fa4a8aeeb4579c8f152, type: 3}
+  - {fileID: 8300000, guid: 050090afd7754ce4ab34d2dd4688876f, type: 3}
+  - {fileID: 8300000, guid: 8724bec97b407db4b9093061fd65ce88, type: 3}
+  volume: 0.4
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 15
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

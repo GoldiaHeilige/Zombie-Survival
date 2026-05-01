@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429f93bc918e608429e621e035f288ea, type: 3}
+  m_Name: PlayerAudioProfile
+  m_EditorClassIdentifier: 
+  defaultFootstep: {fileID: 0}
+  surfaceFootsteps:
+  - surface: 2
+    eventSO: {fileID: 11400000, guid: 408f640f086efd54c86bdd22a77ae196, type: 2}
+  - surface: 3
+    eventSO: {fileID: 11400000, guid: ce1274228acf90f45817170b357508cc, type: 2}
+  - surface: 5
+    eventSO: {fileID: 11400000, guid: d92b48a4201cf5549a235cf89c00980e, type: 2}
+  - surface: 4
+    eventSO: {fileID: 11400000, guid: 19ec1a2e3a48aef42a994923405e37d8, type: 2}
+  footRaycastHeight: 1
+  footRaycastDistance: 1.5
+  footstepMask:
+    serializedVersion: 2
+    m_Bits: 11264
+  footstepPlayChance: 1
+  maxFootstepDistance: 15
+  minFootstepInterval: 0.2
+  crouchDownSfx: {fileID: 0}
+  standUpSfx: {fileID: 0}
+  walkRattleSfx: {fileID: 11400000, guid: 700f276a0a7824742994da79f7423147, type: 2}
+  walkRattleChance: 1
+  sprintRattleSfx: {fileID: 11400000, guid: 700f276a0a7824742994da79f7423147, type: 2}
+  sprintRattleChance: 1
+  jumpStartSfx: {fileID: 0}
+  landSoftSfx: {fileID: 0}
+  landHardSfx: {fileID: 0}
+  landHardVelocity: -6

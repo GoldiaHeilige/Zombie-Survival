@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230d37c2281c6fc4faaf1c5ae6970f20, type: 3}
+  m_Name: PlayerHealthProfile
+  m_EditorClassIdentifier: 
+  hurtClips:
+  - {fileID: 11400000, guid: e0a263e55956a814d95ba6fd77b4b775, type: 2}
+  minHurtInterval: 0.35
+  minDamageToPlayHurt: 20
+  downedSFX: {fileID: 11400000, guid: ebeb949bf83ebec4985860a5f7079024, type: 2}
+  deathSFX: {fileID: 11400000, guid: ebeb949bf83ebec4985860a5f7079024, type: 2}
+  lowHpBreathSFX: {fileID: 11400000, guid: 86dd2663e1e180b46aa977a92676ece2, type: 2}
+  lowHpThreshold: 0.5
+  lowHpBreathInterval: {x: 2.5, y: 4.5}

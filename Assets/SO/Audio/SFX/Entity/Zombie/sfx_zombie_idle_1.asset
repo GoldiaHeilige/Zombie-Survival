@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_zombie_idle_1
+  m_EditorClassIdentifier: 
+  eventId: 720
+  eventName: sfx_zombie_idle_1
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: ecb48c33467216648acdb8cff590acad, type: 3}
+  - {fileID: 8300000, guid: 2068dd4dfd92fbb4e87ec05579cebc9d, type: 3}
+  - {fileID: 8300000, guid: 7af169fb98aba0b4982028612849b0f2, type: 3}
+  - {fileID: 8300000, guid: 738f824a7d7540148bb1509bf864f997, type: 3}
+  - {fileID: 8300000, guid: cbcb8f8a43298674e87d7e534bd687ea, type: 3}
+  - {fileID: 8300000, guid: 821e489f300e6ff419884887df7df829, type: 3}
+  - {fileID: 8300000, guid: 5d0e1723accceb14189519af63c1ee8e, type: 3}
+  - {fileID: 8300000, guid: 9b3fa696716a3f74c8f2629fcb6d2b32, type: 3}
+  - {fileID: 8300000, guid: 3294f689961d39844b9c5980740f2a6d, type: 3}
+  - {fileID: 8300000, guid: 3062fe34325d0b14eb817f1cd15286cf, type: 3}
+  - {fileID: 8300000, guid: 30d9a06b4106b054fa290a2d9d832e1d, type: 3}
+  - {fileID: 8300000, guid: b24b124fab44e8546820118e0e927d96, type: 3}
+  - {fileID: 8300000, guid: 346b1fee32f918148a5d8f7ef4729f32, type: 3}
+  - {fileID: 8300000, guid: eee57eb6335323e42ad3309e7c6d3f07, type: 3}
+  volume: 1
+  pitch: 1
+  pitchRandomRange: 0.05
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 10
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

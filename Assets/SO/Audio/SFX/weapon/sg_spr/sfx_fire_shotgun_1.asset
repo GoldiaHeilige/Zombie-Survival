@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_fire_shotgun_1
+  m_EditorClassIdentifier: 
+  eventId: 403
+  eventName: sfx_fire_shotgun_1
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: e1a81624103ebf5418448240dfcd1fc3, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 20
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

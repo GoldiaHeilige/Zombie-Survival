@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b628ec856ebed4da32dc063418a214, type: 3}
+  m_Name: WaveSets_new
+  m_EditorClassIdentifier: 
+  fixedWaves:
+  - {fileID: 11400000, guid: 50e932c3a5fb64249afed232a8156b20, type: 2}
+  - {fileID: 11400000, guid: 76aea411acec493448f9fab87591ea44, type: 2}
+  - {fileID: 11400000, guid: 01e2ce3c84fb4db4aa2a740da6f3f1f4, type: 2}
+  - {fileID: 11400000, guid: de940fe74c15c2c4c98647c10e77c81f, type: 2}
+  - {fileID: 11400000, guid: e23641cc8ce72ea4e88d288e2ef08062, type: 2}
+  - {fileID: 11400000, guid: d4b5b30578b626444ad7daddccbd8dff, type: 2}
+  - {fileID: 11400000, guid: 2e84dcd56fd2a794bb06da7a7bddcde8, type: 2}
+  loopFixed: 0
+  fixedBlockLength: 7
+  proceduralBlockLength: 999999
+  enableProcedural: 1
+  catalog: {fileID: 11400000, guid: 104c3273ac28c624ea7a14fd45b033cb, type: 2}
+  useBudgetCap: 1
+  maxBudget: 40
+  mpMaxBudgetAddPerExtraPlayer: 20
+  baseBudget: 20
+  baseConcurrency: 15
+  budgetScalePerWave: 1.15
+  addConcurrencyEvery: 5
+  maxConcurrency: 30
+  enableMpScaling: 1
+  mpBudgetMulPerExtraPlayer: 0.75
+  mpCapAddPerExtraPlayer: 6
+  mpMaxCapAddPerExtraPlayer: 8
+  mpScaleSpecialWaves: 1
+  enableMpEnemyHpScaling: 1
+  mpEnemyHpMulPerExtraPlayer: 0.5
+  mpEnemyHpPlayerCap: 3
+  spawnBurst: 10
+  interBurstDelay: 2
+  everyNSpecial: 0
+  specialWaves:
+  - {fileID: 11400000, guid: 72a5f5306cdff6d47944ae5e2e23e8fd, type: 2}
+  - {fileID: 11400000, guid: 73139b51e3770d546929fc66d053143a, type: 2}
+  - {fileID: 11400000, guid: 95f1936b9f97ba94ea9571c5ddaf1831, type: 2}
+  - {fileID: 11400000, guid: 7993cbe955d9be14594290447f56ef58, type: 2}
+  specialOneShot: {fileID: 11400000, guid: 73139b51e3770d546929fc66d053143a, type: 2}
+  interWaveDelay: 10

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdc4c26a170baf44aff27b4de6c45ec, type: 3}
+  m_Name: AP_Swipe 1
+  m_EditorClassIdentifier: 
+  displayName: Swipe
+  priority: 1
+  weight: 1
+  animationIndex: 2
+  damage: 40
+  knockback: 3
+  damageTag: melee
+  minRange: 0
+  maxRange: 1.7
+  facingAngle: 120
+  requireLOS: 1
+  shape: 1
+  radius: 0.5
+  height: 1.1
+  boxHalfExtents: {x: 0.5, y: 0.5, z: 0.6}
+  shapeLocalOffset: {x: 0, y: 0.2, z: 0.5}
+  windupTime: 0.35
+  activeTime: 0.12
+  recoveryTime: 0.4
+  cooldown: 1
+  extraActiveWindows: []
+  allowMoveDuringAttack: 1
+  onlyWhenTargetCentered: 0

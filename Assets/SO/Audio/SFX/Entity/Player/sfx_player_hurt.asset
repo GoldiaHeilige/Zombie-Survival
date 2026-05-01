@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_player_hurt
+  m_EditorClassIdentifier: 
+  eventId: 705
+  eventName: sfx_player_hurt
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 68e2efd9fc9dc1e489a88c8208da412a, type: 3}
+  - {fileID: 8300000, guid: 913cdcd252655244e956cfc91a9fa3b8, type: 3}
+  - {fileID: 8300000, guid: 4e284083e807f1d44b3af4f8332cdd51, type: 3}
+  - {fileID: 8300000, guid: 2d0e8f3743f19b34ab844ee2673f1ee5, type: 3}
+  - {fileID: 8300000, guid: 1352e7196d2ffd74287f6bc13a10600f, type: 3}
+  - {fileID: 8300000, guid: ebd85382715bda7419128056d71eb825, type: 3}
+  - {fileID: 8300000, guid: 0a5d006ed26c9c047be8eef84873d103, type: 3}
+  - {fileID: 8300000, guid: 273f7e53c3c4af449ae405dfe5fb8a64, type: 3}
+  volume: 0.6
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 13
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

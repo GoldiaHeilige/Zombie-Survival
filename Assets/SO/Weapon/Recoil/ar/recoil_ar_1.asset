@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127f688e2d2247b4c8f6e1b03c371413, type: 3}
+  m_Name: recoil_ar_1
+  m_EditorClassIdentifier: 
+  ProfileName: recoil_ar_1
+  ShotImpulse:
+    VerticalPerShot: 0.75
+    HorizontalPerShot: 0.5
+    MaxVertical: 15
+    MaxHorizontal: 10
+    FirstShotMultiplier: 1.15
+    BurstResetCooldown: 0.25
+    HorizontalPatternCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.31642327
+        value: 0.45259565
+        inSlope: -1.6162328
+        outSlope: -1.6162328
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24778092
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.4583558
+        value: 0.23515707
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.9985517
+        value: 1.001542
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HorizontalPatternSteps: 20
+    HorizontalRandomness: 1
+  Recovery:
+    RecoveryDelay: 0.06
+    RecoverySpeed: 9
+    RecoveryCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  Hipfire:
+    BaseSpreadYaw: 10
+    BaseSpreadPitch: 10
+    MoveSpreadMultiplier: 1
+    AirSpreadMultiplier: 2
+    CrouchSpreadMultiplier: 0.5
+    CrouchOnlyAffectsVertical: 0
+  Scales:
+    ADSVerticalScale: 1
+    ADSHorizontalScale: 1
+    SprayTightenOverTime: 0
+  Output:
+    ApplyToCamera: 1
+    ClampPitchMin: -89
+    ClampPitchMax: 89
+    ApplyToWeaponKick: 1
+    WeaponKickScale: 1
+  ViewmodelKick:
+    KickImpulseADS: 0.01
+    KickImpulseHip: 0.5
+    MaxKick: 0.05
+    SpringK: 35
+    Damping: 12
+    PositionLerp: 0.25
+    BackwardIsNegativeZ: 1
+  ViewmodelSway:
+    Enable: 1
+    HipRecoilPos: {x: -0.002, y: 0.0015, z: 0}
+    ADSRecoilPos: {x: -0.0012, y: 0.0008, z: 0}
+    HipRecoilEuler: {x: -1, y: 0.25, z: 1}
+    ADSRecoilEuler: {x: 0, y: 0, z: 0}
+    PosReturnSpeed: 8
+    RotReturnSpeed: 12

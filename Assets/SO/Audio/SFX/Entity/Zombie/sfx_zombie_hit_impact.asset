@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_zombie_hit_impact
+  m_EditorClassIdentifier: 
+  eventId: 720
+  eventName: sfx_zombie_hit_impact
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 322d1f3d4cc66074abd4a63bd50d2b50, type: 3}
+  - {fileID: 8300000, guid: 9a864d7d9d2ce2b47a78ba735814274a, type: 3}
+  - {fileID: 8300000, guid: 8a4ec87ab77a1e347909bf71bfde596c, type: 3}
+  - {fileID: 8300000, guid: c274389389b91d749b6a1ac335c6b2d2, type: 3}
+  - {fileID: 8300000, guid: 5fba68c529db0754aa3ae039594d26a6, type: 3}
+  - {fileID: 8300000, guid: 69b210c43224fc34d9a634f5cc2c6f88, type: 3}
+  - {fileID: 8300000, guid: e42636a7f6a3c5f4f88000a8a75c62d8, type: 3}
+  - {fileID: 8300000, guid: 1ba25ab58e982344a982a0cc67e1610c, type: 3}
+  - {fileID: 8300000, guid: ff4be24d4e140194abf1efc67c43a6d7, type: 3}
+  volume: 1
+  pitch: 1
+  pitchRandomRange: 0.05
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 20
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

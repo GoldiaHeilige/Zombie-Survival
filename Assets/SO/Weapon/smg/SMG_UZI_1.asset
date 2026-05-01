@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902758796f9adc94aa805f59df724609, type: 3}
+  m_Name: SMG_UZI_1
+  m_EditorClassIdentifier: 
+  weaponName: UZI
+  weaponId: smg_uzi_1
+  fireMode: 1
+  fireKind: 0
+  damageType: 0
+  baseDamage: 22
+  maxDistance: 40
+  projectileSpeed: 60
+  enablePenetration: 1
+  maxPenetrations: 1
+  damageMultiplierPerPenetration: 0.15
+  minDamageAfterPenetration: 0
+  RecoilProfile: {fileID: 11400000, guid: 572f354d65b2c254b90e438a9fc4c403, type: 2}
+  rpm: 650
+  burstCount: 0
+  burstInterval: 0
+  pelletCount: 1
+  pelletSpreadDegHip: 0
+  pelletSpreadDegADS: 0
+  reloadTime: 3
+  magSize: 25
+  startReserve: 180
+  maxReserve: 360
+  adsInTime: 0.12
+  adsOutTime: 0.14
+  adsFOV: 50
+  upgradedVersion: {fileID: 0}
+  muzzleFlashPrefab: {fileID: 1198663731479534, guid: 98a2187c8d9e192428ee095a973bc12e, type: 3}
+  worldMuzzleFlashPrefab: {fileID: 1198663731479534, guid: 98a2187c8d9e192428ee095a973bc12e, type: 3}
+  tracerPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  hitboxMultipliers:
+  - hitboxId: 1
+    multiplier: 2.2
+  - hitboxId: 2
+    multiplier: 0.7
+  - hitboxId: 3
+    multiplier: 0.5
+  - hitboxId: 5
+    multiplier: 0.2
+  - hitboxId: 6
+    multiplier: 0.2
+  - hitboxId: 7
+    multiplier: 0.2
+  critChance: 0.15
+  critMultiplier: 1.2
+  limbDetachMultiplier: 1
+  casingPrefab: {fileID: 4843123081825610971, guid: 84c47f9096da7dd40adc45c435ec95da, type: 3}
+  casingEjectNameCandidates:
+  - Eject
+  - EjectionPort
+  - ShellEject
+  - CasingEject
+  casingEjectForce: {x: 1.5, y: 3}
+  casingTorque: {x: 0.5, y: 2}
+  casingLifetime: 1
+  casingImpactAudio: {fileID: 0}
+  animWeaponType: 2
+  impactVFX:
+    Default: {fileID: 100002, guid: 16d1c6362258a3f44a40f35c3f422064, type: 3}
+    Flesh: {fileID: 1026642433091512, guid: ed67c2cb8e3a7fb418c6fbb1b001dce2, type: 3}
+    Metal: {fileID: 1067536016464596, guid: 57e18706e2792ff4bb5561ed74b796e2, type: 3}
+    Wood: {fileID: 1260334799937022, guid: 2b28f2fdc5a65964f96ea4d2b9d6ca63, type: 3}
+    Concrete: {fileID: 1450638143650814, guid: 9fe1ddc0da27cb44ebeeb8c2befa68bd, type: 3}
+    Glass: {fileID: 0}
+    Dirt: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f, type: 3}
+    Water: {fileID: 1730680232597524, guid: 5a3c9da90a2a4ea4692cee3096b94082, type: 3}
+  impactSFX:
+    Default: {fileID: 11400000, guid: e877a077caf0a374f9cd7e1c73044c55, type: 2}
+    Flesh: {fileID: 11400000, guid: c80a6617be2a421488736ef3920ec308, type: 2}
+    Metal: {fileID: 11400000, guid: e8c6f57e5e280534dbfd917b9c8aa667, type: 2}
+    Wood: {fileID: 11400000, guid: 32c18371f58fa1045a15483a79ba6544, type: 2}
+    Concrete: {fileID: 11400000, guid: e877a077caf0a374f9cd7e1c73044c55, type: 2}
+    Glass: {fileID: 11400000, guid: 48f179524e752024cb3db65d254ca97b, type: 2}
+    Dirt: {fileID: 11400000, guid: 63b89dc7c89f4934381cde266dcbca60, type: 2}
+    Water: {fileID: 0}
+  fireAudio: {fileID: 11400000, guid: 7a48771c5c2d76145b72c916b16dcd19, type: 2}
+  reloadAudio: {fileID: 11400000, guid: de0220a16992f06478c216e9b78a28d8, type: 2}
+  viewPrefab: {fileID: 2483198564364969417, guid: f8ffd64c72354da4897f6854580593cd, type: 3}
+  thirdPersonPrefab: {fileID: 5560549838849632593, guid: 6a14b2df7b83d824f8abcf8cf3456272, type: 3}
+  fpHipPositionOffset: {x: -0.04, y: -0.24, z: 0.02}
+  fpHipRotationOffsetEuler: {x: 0, y: 5.95, z: 0}
+  worldPrefab: {fileID: 1359694663716272637, guid: c190e0feaddeb8c44a72dd0474628e42, type: 3}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 97536
+  thirdPersonPositionOffset: {x: 0.12, y: 0.07, z: -0.09}
+  thirdPersonRotationOffsetEuler: {x: 0, y: -70, z: 90}
+  thirdPersonScale: {x: 1.25, y: 1.25, z: 1.25}
+  useADSOffsetsForWorldModel: 1
+  thirdPersonADSPositionOffset: {x: 0.09, y: 0.05, z: -0.06}
+  thirdPersonADSRotationOffsetEuler: {x: 0, y: -80, z: 90}
+  thirdPersonADSScale: {x: 1.25, y: 1.25, z: 1.25}

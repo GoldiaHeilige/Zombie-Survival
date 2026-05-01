@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_glass_impact
+  m_EditorClassIdentifier: 
+  eventId: 730
+  eventName: sfx_glass_impact
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: c0607df5a26e01c4d8a55001751bd623, type: 3}
+  - {fileID: 8300000, guid: cf990a4bfc2b75946965cfff6c38be61, type: 3}
+  - {fileID: 8300000, guid: 0c23e5e9a034892419f848ae9d9a8097, type: 3}
+  - {fileID: 8300000, guid: f59c77269c51b8143a4a4dcec977d510, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 15
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

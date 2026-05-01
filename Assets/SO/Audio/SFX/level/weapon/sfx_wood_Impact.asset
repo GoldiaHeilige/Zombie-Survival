@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_wood_Impact
+  m_EditorClassIdentifier: 
+  eventId: 733
+  eventName: sfx_wood_Impact
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: 574a5b3f61f87f0428ad073ab9de6b1a, type: 3}
+  - {fileID: 8300000, guid: 469321628e4762643b80af351a20aaf1, type: 3}
+  - {fileID: 8300000, guid: b7a73a5fbc2a824408a69103d0d03b00, type: 3}
+  - {fileID: 8300000, guid: 954aa966d6b81aa4bae6b5b727d80f71, type: 3}
+  - {fileID: 8300000, guid: cbe56374ceb5c0f409a38f2f3c379bda, type: 3}
+  - {fileID: 8300000, guid: 9f8f6a27b0767544499c62ff2d76f10b, type: 3}
+  - {fileID: 8300000, guid: b72b324f6a4c08b4ab7088b19c1ae287, type: 3}
+  - {fileID: 8300000, guid: 5c894e80b893a5b41870a0f17532b727, type: 3}
+  - {fileID: 8300000, guid: aed272aa341131f4d9e0e8da23011a87, type: 3}
+  - {fileID: 8300000, guid: ca0d7a29c750cd744a354875ad09e2c8, type: 3}
+  - {fileID: 8300000, guid: 7691827ee2b00ab408c6bab1953a0229, type: 3}
+  - {fileID: 8300000, guid: bc52d9872b9e1a04b8c2951ab354ed23, type: 3}
+  - {fileID: 8300000, guid: fcf1af1c3f1928a4e8cb16ee257da7ec, type: 3}
+  - {fileID: 8300000, guid: 7993d7d57b5aba84ca1be39741d0cf46, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 15
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: sfx_player_hit_impact
+  m_EditorClassIdentifier: 
+  eventId: 704
+  eventName: sfx_player_hit_impact
+  category: 0
+  clips:
+  - {fileID: 8300000, guid: eb10a0edceaba934395394375ca710d4, type: 3}
+  - {fileID: 8300000, guid: 2c10bd8b03c031c4caeb547bf2f74a5e, type: 3}
+  - {fileID: 8300000, guid: 3c839ddcf1a89f04f810e27d6d4a2cd6, type: 3}
+  - {fileID: 8300000, guid: fb4d7d21267aa2843a641c7e68ed5eaf, type: 3}
+  - {fileID: 8300000, guid: abe7c772a2b58b547b13f306c8c025ab, type: 3}
+  - {fileID: 8300000, guid: 6bf6f306b9c430141a35fadd27ba8841, type: 3}
+  volume: 0.8
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 1
+  minDistance: 1
+  maxDistance: 10
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: -2434718717506480268, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}

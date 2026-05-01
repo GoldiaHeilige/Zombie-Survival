@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8c74ba3d3cad0d448a69a98eb5e28fe9
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: a8cbdf1f556303547b13e1fa0733b313
+  - enabled: 1
+    path: Assets/Scenes/ServerBrowserScene.unity
+    guid: 3e140abf60b36134299217c959e295cd
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/M_PoliceStation.unity
+    guid: 7b152ed95e14e674aa5abf46be743715
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

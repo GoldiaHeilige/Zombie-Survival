@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a38e72e9a1c85e448075b08ba780c06, type: 3}
+  m_Name: amb_spooky
+  m_EditorClassIdentifier: 
+  eventId: 2
+  eventName: amb_spooky
+  category: 4
+  clips:
+  - {fileID: 8300000, guid: f893bdcc900b7e04dbc886e68bffd292, type: 3}
+  - {fileID: 8300000, guid: 200d28fd3d8f2e74fa51330be726711a, type: 3}
+  - {fileID: 8300000, guid: 073501598c89275459731c80728e1a00, type: 3}
+  - {fileID: 8300000, guid: 1a039e5a76da24943aa8311aec25ab8a, type: 3}
+  - {fileID: 8300000, guid: 5508969a1a09d30409c2ebd06402a83a, type: 3}
+  - {fileID: 8300000, guid: b9d98b5253c48a241b747a2db77f1bba, type: 3}
+  - {fileID: 8300000, guid: 5130e880b0895314b90544f263a46ce2, type: 3}
+  - {fileID: 8300000, guid: 1f86ab07610adc94b833653ed3bc2182, type: 3}
+  - {fileID: 8300000, guid: 7ce70adb99adc344bb193915fcf9e19d, type: 3}
+  - {fileID: 8300000, guid: b344696c726eb474ea6853e4be9018ee, type: 3}
+  - {fileID: 8300000, guid: 62748dba48844bb46810bec375944eb2, type: 3}
+  - {fileID: 8300000, guid: e45ebdea44ff5be4ea93e19039d7a41c, type: 3}
+  - {fileID: 8300000, guid: eb05d1e913e232047b8f58e23934d49e, type: 3}
+  - {fileID: 8300000, guid: 45651f2a49dfaf9418fc9d6742d014f6, type: 3}
+  volume: 0.7
+  pitch: 1
+  pitchRandomRange: 0
+  loop: 0
+  is3D: 0
+  minDistance: 1
+  maxDistance: 40
+  customRolloff:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overrideMixerGroup: {fileID: 233348317199752015, guid: 49fe62bbc5b390d469667b7a6eb3f827, type: 2}
